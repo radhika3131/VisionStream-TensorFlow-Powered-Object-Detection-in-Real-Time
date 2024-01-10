@@ -16,3 +16,29 @@ Activate your virtual environment
 ```
 .\tfod\Scripts\activate # Windows 
 ```
+
+### step 4.
+Install dependencies and add a virtual environment to the Python Kernel
+```
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=tfod
+```
+
+### step 5.
+Step 5. Collect images using the Notebook 1. [Image Collection.ipynb](https://github.com/radhika3131/sign_language_Detection/blob/main/1.%20Image%20Collection.ipynb) - ensure you change the kernel to the virtual environment as shown below
+![](![Screenshot (1)](https://github.com/radhika3131/sign_language_Detection/assets/102825662/39de89c6-b425-4a59-b131-dc3eb1a3e411)
+)
+
+### step 6.
+Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders.
+\Folder_Name\Tensorflow\workspace\images\train
+\Folder_Name\Tensorflow\workspace\images\test
+
+### step 7. 
+Begin training process by opening 2. [Training and Detection.ipynb](https://github.com/radhika3131/sign_language_Detection/blob/main/2.%20Training%20and%20Detection.ipynb), this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model.
+
+### step 8.
+During this process, the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has been installed successfully at Step 8 with the last line stating OK.
+![Screenshot (2)](https://github.com/radhika3131/sign_language_Detection/assets/102825662/8ca5bb31-b230-4180-9323-7712583a8824)
+
