@@ -42,3 +42,12 @@ Begin training process by opening 2. [Training and Detection.ipynb](https://gith
 During this process, the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has been installed successfully at Step 8 with the last line stating OK.
 ![Screenshot (2)](https://github.com/radhika3131/sign_language_Detection/assets/102825662/8ca5bb31-b230-4180-9323-7712583a8824)
 
+### Step 9. 
+Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics.
+
+### Step 10. 
+You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g.
+ cd Tensorlfow/workspace/models/my_ssd_mobnet/eval
+and open Tensorboard with the following command
+tensorboard --logdir=. 
+Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.
