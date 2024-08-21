@@ -1,5 +1,5 @@
 # Sign_language_Detection_Walkthrough
-TensorVision is an advanced object detection system built using TensorFlow's Object Detection API. This project demonstrates the full pipeline of training a custom object detection model on your own dataset, fine-tuning it with pre-trained weights, and deploying it for real-time detection using a webcam. The model is capable of identifying multiple objects in live video streams, making it suitable for applications in surveillance, interactive systems, and automated monitoring.
+VisionStream is an advanced object detection system built using TensorFlow's Object Detection API. This project demonstrates the full pipeline of training a custom object detection model on your own dataset, fine-tuning it with pre-trained weights, and deploying it for real-time detection using a webcam. The model is capable of identifying multiple objects in live video streams, making it suitable for applications in surveillance, interactive systems, and automated monitoring.
 
 Key features include:
 
