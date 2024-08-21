@@ -1,5 +1,12 @@
 # Sign_language_Detection_Walkthrough
-This set of Notebooks provides a complete set of code to be able to train and leverage your own custom object detection model using the Tensorflow Object Detection API.
+TensorVision is an advanced object detection system built using TensorFlow's Object Detection API. This project demonstrates the full pipeline of training a custom object detection model on your own dataset, fine-tuning it with pre-trained weights, and deploying it for real-time detection using a webcam. The model is capable of identifying multiple objects in live video streams, making it suitable for applications in surveillance, interactive systems, and automated monitoring.
+
+Key features include:
+
+* Custom Model Training: Train and fine-tune an object detection model on any dataset using TensorFlow.
+* Real-Time Detection: Implement live object detection with webcam integration for instant feedback.
+* Model Exporting: Convert the trained model into a deployable format for use in production environments.
+* Extensive Documentation: Detailed guides and scripts for setting up, training, and deploying the model, making it easy for others to replicate or extend the project.
 ## Steps
 ### step 1. 
 Clone this repository:
