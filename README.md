@@ -123,6 +123,20 @@ For Example :
 
      ![realtime2](https://github.com/user-attachments/assets/bd0d5655-72bc-4785-ba8f-cb225a839603)
 
+  ## Run Real-Time Detection
+   Use your webcam to perform real-time gesture detection with the exported model
+   Results
+ ## Training and Evaluation Metrics
+   Visualize the training and evaluation metrics, such as loss curves and precision/recall graphs
+   * Training Loss Curve:
+   * Evaluation Metrics:
+
+## Real-Time Detection Outputs
+I Love You Gesture Detection:
+![ilove2](https://github.com/user-attachments/assets/14606918-a81c-454d-bdb9-0534379a1c6a)
+
+No Gesture Detection:
+![no3](https://github.com/user-attachments/assets/0abbbe12-2319-45ea-af9d-05a71509c40a)
 
 
 
