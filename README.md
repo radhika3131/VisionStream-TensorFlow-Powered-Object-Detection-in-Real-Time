@@ -1,6 +1,9 @@
 # Sign_language_Detection_Walkthrough
 VisionStream is an advanced object detection system built using TensorFlow's Object Detection API. This project demonstrates the full pipeline of training a custom object detection model on your own dataset, fine-tuning it with pre-trained weights, and deploying it for real-time detection using a webcam. The model is capable of identifying multiple sign language gestures in live video streams, making it suitable for applications in surveillance, interactive systems, and automated monitoring.
 
+![no3](https://github.com/user-attachments/assets/e00621d6-1814-4caa-936d-9809b4bc6aa0)
+
+
 Key features include:
 
 * Custom Model Training: Train and fine-tune an object detection model on any dataset using TensorFlow.
@@ -58,3 +61,7 @@ You can optionally evaluate your model inside of Tensorboard. Once the model has
 and open Tensorboard with the following command
 tensorboard --logdir=. 
 Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.
+![realtime3](https://github.com/user-attachments/assets/6c595322-c227-48d8-95a1-393e4e1cfbdc)
+![realtime4](https://github.com/user-attachments/assets/d3e6b353-50c6-42e0-b18d-7c51ba5de0e0)
+
+
